@@ -10,8 +10,11 @@ namespace Lesson1
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Hello, world!");
+            Console.Write("Введите Ваше имя: ");
+            string person_name = Console.ReadLine();
+            Console.WriteLine($"Привет, {person_name}, сегодня {DateTime.Now}");
+            Console.WriteLine("Для выхода из программы нажмите любую клавишу...");
+            Console.ReadKey();
         }
     }
 }
