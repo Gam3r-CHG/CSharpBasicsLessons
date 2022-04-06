@@ -15,6 +15,7 @@ namespace Lesson1
             Console.WriteLine($"Привет, {person_name}, сегодня {DateTime.Now}");
             Console.WriteLine("Для выхода из программы нажмите любую клавишу...");
             Console.ReadKey();
+
         }
     }
 }
