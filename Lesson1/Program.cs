@@ -12,7 +12,7 @@ namespace Lesson1
         {
             Console.Write("Введите Ваше имя: ");
             string person_name = Console.ReadLine();
-            Console.WriteLine($"Привет, {person_name}, сегодня {DateTime.Now}");
+            Console.WriteLine($"Привет, {person_name}, сегодня {DateTime.Now.ToShortDateString()}");
             Console.WriteLine("Для выхода из программы нажмите любую клавишу...");
             Console.ReadKey();
 
